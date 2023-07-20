@@ -9,14 +9,14 @@ window.onload = function() {
   let excuseElement = document.getElementById("excuse");
   excuseElement.innerHTML = generateExcuse();
   //write your code here
-  console.log("Hello Rigo from the console!");
+  console.log("Hello and lie to me!");
 };
 
 function generateExcuse() {
-  let who = ["I", "My father", "Antonio"];
+  let who = ["I", "My father", "Antonio", "The cat"];
   let action = ["can not", "like to", "got crushed", "drive"];
-  let what = ["with js", "dancing in the monnlight", "the car"];
-  let when = ["Today", "When was a child", "Tomorrow"];
+  let what = ["with js", "go", "dancing in the monnlight", "the car"];
+  let when = ["Today", "When was a child", "Tomorrow", "In the future"];
 
   let randomWho = who[Math.floor(Math.random() * who.length)];
   let randomAction = action[Math.floor(Math.random() * action.length)];
